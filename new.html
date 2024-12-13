@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #navbar1{
+            width: 100%;
+            height: 10vh;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        #heading1{
+            color: white;
+            font-size: 27px;
+            margin-left: 120px;
+        }
+
+        #heading1:hover{
+            cursor: pointer;
+        }
+
+        #heading1:hover #dropmenu{
+            display: block;
+            color: white;
+            background-color: black;
+        }
+
+        #heading2{
+            color: white;
+            font-size: 27px;
+        }
+
+        #heading2:hover{
+            cursor: pointer;
+        }
+
+        #heading3{
+            color: white;
+            font-size: 27px;
+        }
+
+        #heading3:hover{
+            cursor: pointer;
+        }
+
+        #heading4{
+            color: white;
+            font-size: 27px;
+            margin-right: 120px;
+        }
+
+        #heading4:hover{
+            cursor: pointer;
+        }
+
+        #dropmenu{
+            width: 140px;
+            background-color: black;
+            position: absolute;
+            left: 244px;
+            top: 11%;
+            display: none;
+        }
+
+        #menuitem1{
+            position: relative;
+            padding: 10px;
+        }
+
+        #menuitem2{
+            position: relative;
+            padding: 10px;
+        }
+
+        #menuitem3{
+            position: relative;
+            padding: 10px;
+        }
+
+        #menuitem4{
+            position: relative;
+            padding: 10px;
+        }
+
+        #menuitem5{
+            position: relative;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar1">
+        <div id="heading1">Home
+            <div id="dropmenu">
+                <div id="menuitem1">Html</div>
+                <div id="menuitem2">Css</div>
+                <div id="menuitem3">Java</div>
+                <div id="menuitem4">Boostrap</div>
+                <div id="menuitem5">React</div>
+            </div>
+        </div>
+        <div id="heading2">About</div>
+        <div id="heading3">Contact</div>
+        <div id="heading4">Number</div>
+    </div>
+</body>
+</html>
